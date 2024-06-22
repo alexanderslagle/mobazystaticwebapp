@@ -1,0 +1,51 @@
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="portfolio">Portfolio</a></li>
+          <li class="breadcrumb-item active" aria-current="page">{{project.name}}</li>
+        </ol>
+      </nav>
+    <div class="row">
+        <!-- Left Column-->
+        <div class ="col-lg shadow border m-1 rounded">
+            <div class="text-center">
+                <h2>{{project.name}}</h2>
+            </div>
+            <div class="container">
+                <p>{{project.summary}}</p>
+                <p><b>Platforms: </b> {{project.platforms}}</p>
+                <p><b>Role: </b> {{project.role}}</p>
+                <p><b>Tools Used: </b> {{project.toolsUsed}}</p>
+            <table *ngIf =project.releasedOnAppStores>
+                <tr>
+                  <td>
+                    <a href="{{project.appleAppStoreLink}}" target="_blank">
+                      <img src="../../assets/App Store.png" width="150px" height="auto">
+                    </a>
+                    <p></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="{{project.googlePlayLink}}" target="_blank">
+                      <img src="../../assets/Google Play.png" width="150px" height="auto">
+                      <p></p>
+                    </a>
+                  </td>
+                  </tr>
+              </table>
+            </div>
+        </div>
+        <!-- Right Column-->
+        <div class ="col-lg shadow border m-1 rounded">
+            <div class="text-center">
+                <iframe style="margin-top: 10px;" width="{{project.youtubeWidth}}" height="{{project.youtubeHeight}}"
+                [src]="myTrustedUrl"
+                title="{{project.name}}"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
