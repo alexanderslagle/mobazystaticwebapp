@@ -1,38 +1,8 @@
 <div class="container">
+    <p class="text-center">All games were made with <b>Unity</b> and <b>C#</b>.</p>
     <div class="row">
-        <!-- Left Column-->
-        <div class ="col-lg shadow border m-1 rounded">
-            <div class="text-center">
-                <h2>About Me</h2>
-                <img routerLink= "/bio" src="../../assets/Professional Picture.png" width = "256" height = "256">
-                <p style="margin-top: 2%;">Alex designs and develops mobile games with Unity and
-                    C#. A few games caught the attention of major publishing companies like Lion Studios, AZUR GAMES, and Ketchapp. </p>
-                <button routerLink="/bio" class="btn btn-primary">View More</button>
-                <p></p>
-            </div>
-        </div>
-        <!-- Right Column-->
-        <div class ="col-lg shadow border m-1 rounded">
-            <div class="text-center">
-                <h2>Featured Project</h2>
-                <h4>{{featuredProject.name}}</h4>
-                <img routerLink={{featuredProject.routerLink}} src="{{featuredProject.imagePath}}" class="rounded" width = "256" height = "256">
-                <p class="mt-2">{{featuredProject.description}}</p>
-                <button routerLink="/portfolio/lost-duckling" class="btn btn-primary">View More</button>
-                <p></p>
-            </div>
-        </div>
-    </div>
-    
-    <div class="row">
-        <div class ="col-sm shadow border m-1 rounded">
-            <div class="text-center">
-                <h2 style="margin-top: 2%;">View All Projects</h2>
-                <img routerLink="./portfolio" src="../../assets/Projects.png" class="rounded" height = "225" width = "auto">
-                <br>
-                <button style="margin:5px;" routerLink="/portfolio/" class="btn btn-primary">Portfolio</button>
-            </div>
+        <div *ngFor="let project of projects" class="col-lg-4 col-md-6 mb-4" style="max-width: 380px; min-width: 38">
+            <app-project-card [project] = "project"></app-project-card>
         </div>
     </div>
 </div>
-
