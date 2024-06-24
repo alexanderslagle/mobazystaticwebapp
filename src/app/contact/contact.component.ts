@@ -9,7 +9,7 @@ import { Title } from '@angular/platform-browser';
 export class ContactComponent implements OnInit {
 
   constructor(private titleService: Title) {
-    this.titleService.setTitle('Alex Slagle - Contact ✉️')
+    this.titleService.setTitle('Mobazy - Contact')
  }
 
   ngOnInit(): void {

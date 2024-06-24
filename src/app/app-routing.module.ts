@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BioComponent } from './bio/bio.component';
 import { GamesComponent } from './games/games.component';
 import { ContactComponent } from './contact/contact.component';
 import { LostDucklingComponent } from './lost-duckling/lost-duckling.component';
@@ -8,10 +7,11 @@ import { FallenUmbrellaComponent } from './fallen-umbrella/fallen-umbrella.compo
 import { AliensDefenseComponent } from './aliens-defense/aliens-defense.component';
 import { HoodSearchComponent } from './hood-search/hood-search.component';
 import { MonsterCleaningComponent } from './monster-cleaning/monster-cleaning.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 const routes: Routes = [
-  {path: 'bio', component: BioComponent},
   {path: 'contact', component: ContactComponent},
+  {path: 'about-us', component: AboutUsComponent},
   {path: 'games/lost-duckling', component: LostDucklingComponent},
   {path: 'games/fallen-umbrella', component: FallenUmbrellaComponent},
   {path: 'games/monster-cleaning', component: MonsterCleaningComponent},
