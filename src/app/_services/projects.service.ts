@@ -33,20 +33,6 @@ export class ProjectsService {
     toolsUsed: "Unity, C#, Azure DevOps, and Git.", imagePath: "../../assets/Hood Search.png", routerLink: "/games/hood-search",
      summary: "In Hood Search the player rotates the world in search of stolen items. The player taps the item once they found it.", youtubeLink: "https://www.youtube.com/embed/vcl3H2VJE9I", appleAppStoreLink: "https://apps.apple.com/us/app/hood-search/id1510119672", 
      googlePlayLink: "https://play.google.com/store/apps/details?id=com.slaglegames.NeighborhoodSearch", releasedOnAppStores: true, youtubeHeight: "560", youtubeWidth: "315"},
-    
-    {id: 5, name: "An Elf's Tune", description: "RPG", platforms: "Unreleased.", role: "Game Designer and Game Programmer.",
-    toolsUsed: "Unity, C#, Azure DevOps, Git, and Draw.IO.", imagePath: "../../assets/An Elf's Tune.png", routerLink: "/games/an-elfs-tune", 
-    summary: "An Elf's Tune was a class project completed in one month.  The team was a size of six, Alex did the programming and game development. The team provided Alex with assets to be included in the game, these assets included UI images, sound effects, music, 3d models (the elf), and levels (entire scenes). Alex made animation controllers for the Elf and the Spider.",
-     youtubeLink: "https://www.youtube.com/embed/62nXiWq7nNY?si=sSSjAVfIo1opsb6N", appleAppStoreLink: "", googlePlayLink: "", releasedOnAppStores: false, youtubeHeight: "300", youtubeWidth: "100%"}, 
-    
-    {id: 6, name: "House Cat", description: "Endless runner", platforms: "Apple App Store and Google Play, but Alex removed this game from the app stores.", role: "Game Designer and Game Programmer.",
-    toolsUsed: "Unity, C#, Azure DevOps, and Git.", imagePath: "../../assets/House Cat.png", routerLink: "/games/house-cat", summary: "This was the first game Alex ever made. The player taps either the left or right half of the screen to move the cat.",
-     youtubeLink: "https://www.youtube.com/embed/tNGOJkKDx1E", appleAppStoreLink: "", googlePlayLink: "", releasedOnAppStores: false, youtubeHeight: "560", youtubeWidth: "315"},
-    
-    {id: 7, name: "Battle Ship", description: "Two-week coding exercise", platforms: "Unreleased.", imagePath: "../../assets/Battle Ship.png",
-    toolsUsed: "Unity, C#, Azure DevOps, Git, and Draw.IO.", role: "Game Designer and Game Programmer.",  routerLink: "/games/battle-ship",
-     summary: "Battle Ship was a two-week coding assignment where Alex was assigned to implement a single-player version of the board game Battleship against any kind of AI or random moves.", youtubeLink: "https://www.youtube.com/embed/EfPdKr0YzeQ?si=qxUWXKyCAIkO7V72", appleAppStoreLink: "", 
-     googlePlayLink: "", releasedOnAppStores: false, youtubeHeight: "300", youtubeWidth: "100%"},
   ];
   constructor() { }
 
