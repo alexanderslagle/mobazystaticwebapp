@@ -1,3 +1,7 @@
 .container{
     max-width: 1140px;
 }
+@font-face {
+    font-family: 'QarmicSans';
+    src: url('./assets/Qarmic sans Abridged.ttf');
+  }
