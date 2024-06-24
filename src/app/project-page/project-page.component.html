@@ -8,14 +8,12 @@
     <div class="row">
         <!-- Left Column-->
         <div class ="col-lg shadow border m-1 rounded">
-            <div class="text-center">
-                <h2>{{project.name}}</h2>
+            <div class="text-center projectCard">
+                <h2 style="margin-top: 10px;">{{project.name}}</h2>
             </div>
             <div class="container">
                 <p>{{project.summary}}</p>
                 <p><b>Platforms: </b> {{project.platforms}}</p>
-                <p><b>Role: </b> {{project.role}}</p>
-                <p><b>Tools Used: </b> {{project.toolsUsed}}</p>
             <table *ngIf =project.releasedOnAppStores>
                 <tr>
                   <td>
