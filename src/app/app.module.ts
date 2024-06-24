@@ -6,7 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { NavComponent } from './nav/nav.component';
 import { AppRoutingModule } from './app-routing.module';
-import { HomeComponent } from './home/home.component';
+import { GamesComponent } from './games/games.component';
 import { BioComponent } from './bio/bio.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProjectCardComponent } from './project-card/project-card.component';
@@ -23,7 +23,7 @@ import { SafePipe } from "./_services/safe.pipe";
 
 @NgModule({
   declarations: [AppComponent, HeaderComponent, NavComponent,
-      HomeComponent, BioComponent, ContactComponent, ProjectCardComponent,
+      GamesComponent, BioComponent, ContactComponent, ProjectCardComponent,
       LostDucklingComponent, FallenUmbrellaComponent, HouseCatComponent,
        MonsterCleaningComponent, BattleShipComponent, AnElfsTuneComponent,
         AliensDefenseComponent, HoodSearchComponent, ProjectPageComponent,
