@@ -17,13 +17,15 @@ import { HoodSearchComponent } from './hood-search/hood-search.component';
 import { ProjectPageComponent } from './project-page/project-page.component';
 import { SafePipe } from "./_services/safe.pipe";
 import { AboutUsComponent } from './about-us/about-us.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [AppComponent, HeaderComponent, NavComponent,
       GamesComponent, ContactComponent, ProjectCardComponent,
       LostDucklingComponent, FallenUmbrellaComponent,MonsterCleaningComponent,
         AliensDefenseComponent, HoodSearchComponent, ProjectPageComponent,
-        SafePipe, AboutUsComponent],
+        SafePipe, AboutUsComponent, PrivacyPolicyComponent, FooterComponent],
   imports: [BrowserModule, BrowserAnimationsModule, AppRoutingModule],
   bootstrap: [AppComponent]
 })

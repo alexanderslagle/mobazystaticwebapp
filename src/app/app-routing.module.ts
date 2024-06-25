@@ -8,6 +8,7 @@ import { AliensDefenseComponent } from './aliens-defense/aliens-defense.componen
 import { HoodSearchComponent } from './hood-search/hood-search.component';
 import { MonsterCleaningComponent } from './monster-cleaning/monster-cleaning.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 
 const routes: Routes = [
   {path: 'contact', component: ContactComponent},
@@ -17,6 +18,7 @@ const routes: Routes = [
   {path: 'games/monster-cleaning', component: MonsterCleaningComponent},
   {path: 'games/aliens-defense', component: AliensDefenseComponent},
   {path: 'games/hood-search', component: HoodSearchComponent},
+  {path: 'privacy-policy', component: PrivacyPolicyComponent},
   {path: '**', component: GamesComponent, pathMatch: 'full'}
 ]
 
