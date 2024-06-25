@@ -19,13 +19,14 @@ import { SafePipe } from "./_services/safe.pipe";
 import { AboutUsComponent } from './about-us/about-us.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { FooterComponent } from './footer/footer.component';
+import { BearFeedingComponent } from './bear-feeding/bear-feeding.component';
 
 @NgModule({
   declarations: [AppComponent, HeaderComponent, NavComponent,
       GamesComponent, ContactComponent, ProjectCardComponent,
       LostDucklingComponent, FallenUmbrellaComponent,MonsterCleaningComponent,
         AliensDefenseComponent, HoodSearchComponent, ProjectPageComponent,
-        SafePipe, AboutUsComponent, PrivacyPolicyComponent, FooterComponent],
+        SafePipe, AboutUsComponent, PrivacyPolicyComponent, FooterComponent, BearFeedingComponent],
   imports: [BrowserModule, BrowserAnimationsModule, AppRoutingModule],
   bootstrap: [AppComponent]
 })

@@ -33,6 +33,11 @@ export class ProjectsService {
     toolsUsed: "Unity, C#, Azure DevOps, and Git.", imagePath: "../../assets/Hood Search.png", routerLink: "/games/hood-search",
      summary: "In Hood Search the player rotates the world in search of stolen items. The player taps the item once they found it.", youtubeLink: "https://www.youtube.com/embed/vcl3H2VJE9I", appleAppStoreLink: "https://apps.apple.com/us/app/hood-search/id1510119672", 
      googlePlayLink: "https://play.google.com/store/apps/details?id=com.slaglegames.NeighborhoodSearch", releasedOnAppStores: true, youtubeHeight: "560", youtubeWidth: "315"},
+
+     {id: 5, name: "Bear Feeding", description: "Feed the Bears!", platforms: "Apple and Android devices.", role: "Game Designer and Game Programmer.",
+      toolsUsed: "Unity, C#, Azure DevOps, and Git.", imagePath: "../../assets/Bear Feeding.png", routerLink: "/games/bear-feeding",
+       summary: "The player rushes to the boat and feeds hungry bears along the way.  Beware of faling into the water.", youtubeLink: "https://www.youtube.com/embed/3809dU3_8WY", appleAppStoreLink: "https://apps.apple.com/us/app/bear-feeding/id6478108753", 
+       googlePlayLink: "https://play.google.com/store/apps/details?id=com.Mobazy.BearFeeding&hl=en_US", releasedOnAppStores: true, youtubeHeight: "560", youtubeWidth: "315"},
   ];
   constructor() { }
 
