@@ -9,6 +9,8 @@ import { HoodSearchComponent } from './hood-search/hood-search.component';
 import { MonsterCleaningComponent } from './monster-cleaning/monster-cleaning.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { LostDucklingPrivacyComponent } from './lost-duckling-privacy/lost-duckling-privacy.component';
+import { GamesPrivacyComponent } from './games-privacy/games-privacy.component';
 
 const routes: Routes = [
   {path: 'contact', component: ContactComponent},
@@ -19,6 +21,8 @@ const routes: Routes = [
   {path: 'games/aliens-defense', component: AliensDefenseComponent},
   {path: 'games/hood-search', component: HoodSearchComponent},
   {path: 'privacy-policy', component: PrivacyPolicyComponent},
+  {path: 'games-privacy', component: GamesPrivacyComponent},
+  {path: 'lostduckling-privacy', component: LostDucklingPrivacyComponent}, // Delete once Lost duckling uses games-privacy
   {path: '**', component: GamesComponent, pathMatch: 'full'}
 ]
 
