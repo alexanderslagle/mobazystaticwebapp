@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-about-us',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./about-us.component.css']
 })
 export class AboutUsComponent {
-
+  constructor(private titleService: Title) {
+    this.titleService.setTitle('Mobazy - About Us')
+ }
 }
