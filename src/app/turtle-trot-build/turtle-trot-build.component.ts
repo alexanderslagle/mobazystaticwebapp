@@ -52,8 +52,8 @@ export class TurtleTrotBuildComponent implements OnInit, AfterViewInit {
         } else {
             // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-            canvas.style.width = '600px';
-            canvas.style.height = '960px';
+            canvas.style.width = '375px';
+            canvas.style.height = '800px';
         }
 
         loadingBar.style.display = 'block';
