@@ -12,6 +12,7 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
 import { LostDucklingPrivacyComponent } from './lost-duckling-privacy/lost-duckling-privacy.component';
 import { GamesPrivacyComponent } from './games-privacy/games-privacy.component';
 import { BearFeedingComponent } from './bear-feeding/bear-feeding.component';
+import { TurtleTrotBuildComponent } from './turtle-trot-build/turtle-trot-build.component';
 
 const routes: Routes = [
   {path: 'contact', component: ContactComponent},
@@ -25,6 +26,7 @@ const routes: Routes = [
   {path: 'privacy-policy', component: PrivacyPolicyComponent},
   {path: 'games-privacy', component: GamesPrivacyComponent},
   {path: 'lostduckling-privacy', component: LostDucklingPrivacyComponent}, // Delete once Lost duckling uses games-privacy
+  {path: 'turtle-trot-build', component: TurtleTrotBuildComponent},
   {path: '**', component: GamesComponent, pathMatch: 'full'}
 ]
 
