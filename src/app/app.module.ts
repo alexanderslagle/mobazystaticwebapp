@@ -22,13 +22,14 @@ import { FooterComponent } from './footer/footer.component';
 import { BearFeedingComponent } from './bear-feeding/bear-feeding.component';
 import { GamesPrivacyComponent } from './games-privacy/games-privacy.component';
 import { TurtleTrotBuildComponent } from './turtle-trot-build/turtle-trot-build.component';
+import { TurtleTrotComponent } from './turtle-trot/turtle-trot.component';
 
 @NgModule({
   declarations: [AppComponent, HeaderComponent, NavComponent,
       GamesComponent, ContactComponent, ProjectCardComponent,
       LostDucklingComponent, FallenUmbrellaComponent,MonsterCleaningComponent,
         AliensDefenseComponent, HoodSearchComponent, ProjectPageComponent,
-        SafePipe, AboutUsComponent, PrivacyPolicyComponent, FooterComponent, BearFeedingComponent, GamesPrivacyComponent, TurtleTrotBuildComponent],
+        SafePipe, AboutUsComponent, PrivacyPolicyComponent, FooterComponent, BearFeedingComponent, GamesPrivacyComponent, TurtleTrotBuildComponent, TurtleTrotComponent],
   imports: [BrowserModule, BrowserAnimationsModule, AppRoutingModule],
   bootstrap: [AppComponent]
 })

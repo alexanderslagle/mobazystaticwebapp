@@ -12,6 +12,7 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
 import { GamesPrivacyComponent } from './games-privacy/games-privacy.component';
 import { BearFeedingComponent } from './bear-feeding/bear-feeding.component';
 import { TurtleTrotBuildComponent } from './turtle-trot-build/turtle-trot-build.component';
+import { TurtleTrotComponent } from './turtle-trot/turtle-trot.component';
 
 const routes: Routes = [
   {path: 'contact', component: ContactComponent},
@@ -22,6 +23,7 @@ const routes: Routes = [
   {path: 'games/aliens-defense', component: AliensDefenseComponent},
   {path: 'games/hood-search', component: HoodSearchComponent},
   {path: 'games/bear-feeding', component: BearFeedingComponent},
+  {path: 'games/turtle-trot', component: TurtleTrotComponent},
   {path: 'privacy-policy', component: PrivacyPolicyComponent},
   {path: 'games-privacy', component: GamesPrivacyComponent},
   {path: 'games-privacy.html', component: GamesPrivacyComponent}, // Delete once apps reference new website
